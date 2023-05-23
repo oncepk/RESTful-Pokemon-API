@@ -67,7 +67,7 @@ function App() {
         <div>
           {loading ? <ReactLoading type='spin' height={'20%'} width={'20%'} /> : <>
             <h1>{poke?.name}</h1> <br />
-            <button onClick={addFav} >Add to favolate</button>
+            <button onClick={addFav} >Add To Favorite</button>
             <img src={poke?.sprites?.other?.home?.front_default} alt="" />
             <ul>
               {poke?.abilities?.map((abil, idx) => (
